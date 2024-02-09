@@ -5,10 +5,14 @@
 }
 
 .search-button {
-    border: 1px solid gray; /* Add border */
-    padding: 5px; /* Add padding for better appearance */
-    background-color: transparent; /* Optional: Set background color */
-    cursor: pointer; /* Optional: Add pointer cursor */
+    border: 1px solid gray;
+    /* Add border */
+    padding: 5px;
+    /* Add padding for better appearance */
+    background-color: transparent;
+    /* Optional: Set background color */
+    cursor: pointer;
+    /* Optional: Add pointer cursor */
     color: white;
 }
 
@@ -66,4 +70,23 @@
 .add-icon {
     display: flex;
     align-items: center;
+}
+
+/* hero section  */
+.hero-section {
+    background-image: url("assets/images/hero.png");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-section2 {
+    background-image: url("assets/images/sale.png");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
