@@ -90,3 +90,7 @@
     justify-content: center;
     align-items: flex-end;
 }
+
+.trending {
+    height: 60px;
+}
